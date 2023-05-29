@@ -49,7 +49,10 @@ async def test_compute_payback_time(annual_energy_production_in_watts, annual_en
         "installation_wp": average_watts_peak_by_hour
     }
 
-    async with AsyncClient(app=application, base_url="http://test") as ac:
-        response = await ac.post("/payback_time", json=requestData)
+    async with AsyncClient(app=application, base_url="http://test") as client:
+        response = await client.post(
+            "/payback_time",
+            json=requestData
+        )
 
     assert response.status_code == 200
