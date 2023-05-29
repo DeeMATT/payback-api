@@ -1,20 +1,18 @@
+from statistics import mean
 from fastapi import FastAPI
-
-from .utils import (
-    energy_savings_cost,
+from app.utils import (
+    energy_savings_cost, 
     retrieve_data_set,
     number_of_solar_panels_with_shortest_payback_time
 )
-from .schema import PaybackSchema
-from statistics import mean
+from .schema import PaybackSchema, PaybackResponse
+
 
 app = FastAPI()
 
 
-
-
 @app.post('/payback_time')
-async def compute_payback_time(data: PaybackSchema):
+async def compute_payback_time(data: PaybackSchema, response_model=PaybackResponse):
     """
     Computes the payback time of solar panels.
 
