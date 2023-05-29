@@ -1,11 +1,7 @@
-from fastapi.testclient import TestClient
 import pytest
 from httpx import AsyncClient
 
-
 from app import app as application, retrieve_data_set, compute_annual_energy_rate
-
-client = TestClient(application)
 
 
 @pytest.fixture
