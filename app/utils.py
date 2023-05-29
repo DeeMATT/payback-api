@@ -87,7 +87,7 @@ def energy_savings_cost(data: PaybackSchema, electricity_price: float) -> float:
     return installation_cost
 
 
-def number_of_solar_panels_with_shortest_payback_time(data: PaybackSchema, electricity_price):
+def number_of_solar_panels_with_shortest_payback_time(data: PaybackSchema, electricity_price: float):
     """
     Computes the optimal solution with Number of Solar Panel in watt peak and the shortest payback time based on customer data
 
