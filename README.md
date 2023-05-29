@@ -85,6 +85,6 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot #1](/datafiles/Screenshot_2023-05-29_at_13.28.26.png?raw=true)
+![API Screenshot #1](/datafiles/Screenshot_2023-05-29_at_13.28.26.png?raw=true)
 
-![App Screenshot #2](/datafiles/Screenshot_2023-05-29_at_13.28.43.png?raw=true)
+![API Screenshot #2](/datafiles/Screenshot_2023-05-29_at_13.28.43.png?raw=true)
