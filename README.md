@@ -81,11 +81,10 @@ Start the server
 
 ## API Reference
 
-- [Postman API Documentation](https://documenter.getpostman.com/view/3546536/2s93m8yg3S)
+[Postman API Documentation](https://documenter.getpostman.com/view/3546536/2s93m8yg3S)
 
 ## Screenshots
 
-![App Screenshot #1](https://drive.google.com/file/d/1BKDdaN9Bvj7jMW3rWEGL7Kd6lyg80ir8/view?usp=sharing)
+![App Screenshot #1](/datafiles/Screenshot_2023-05-29_at_13.28.26.png?raw=true)
 
-![App Screenshot #1](https://drive.google.com/file/d/1rlx17I8-WxE_a5Vk_C-88MGkkdt9JIIz/view?usp=sharing)
-
+![App Screenshot #2](/datafiles/Screenshot_2023-05-29_at_13.28.43.png?raw=true)
