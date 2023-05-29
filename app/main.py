@@ -22,7 +22,7 @@ async def compute_payback_time(data: PaybackSchema, response_model=PaybackRespon
     #     installation_wp: The watt peak of the installation.
 
     Returns:
-        The number of years it takes for the installation to be paid back.
+        The number of years it takes for the installation to be paid back as well as the optimal solution given the input parameters.
     """
     annual_energy_consumption = data.annual_energy_consumption
 
